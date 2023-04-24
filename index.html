@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Expenses Tracker</title>
+  </head>
+  <body>
+    <section class="partOne">
+      <h1 class="title">Welcome To The Expenses Tracker App</h1>
+      <div class="amountContainer">
+        <div class="incomeContainer">
+          <p>Income</p>
+          <p class="incomeValue">$0</p>
+        </div>
+        <div class="expensesContainer">
+          <p>Expenses</p>
+          <p class="expensesValue">$0</p>
+        </div>
+      </div>
+    </section>
+    <section class="expenseItemsDisplay">
+      <h1>History</h1>
+      <div class="expensesSmall">
+        <small class="expNameDisp"></small>
+        <small class="expValueDisp"></small>
+        <small class="expCategoryDisp"></small>
+      </div>
+    </section>
+    <section class="partTwo">
+      <h1>Add An Expense</h1>
+      <div class="addExpense">
+        <p>Expense Name:</p>
+        <input
+          type="text"
+          name=""
+          placeholder="Enter name:"
+          class="expensesNameInput"
+        />
+      </div>
+      <div class="addExpenseAmount">
+        <p>Expense Amount:</p>
+        <input
+          type="text"
+          name=""
+          placeholder="Enter value:"
+          class="expensesValueInput"
+        />
+        <div class="categoryOptions" style="width: 200px">
+          <p>Category:</p>
+          <form action="">
+            <select id="Categories">
+              <option value="0">Select Category</option>
+              <option value="1" selected="selected">Housing</option>
+              <option value="2">Transporation</option>
+              <option value="3">Food</option>
+              <option value="4">Utilities</option>
+              <option value="5">Insurance</option>
+              <option value="6">Medical & Healthcare</option>
+              <option value="7">Savings</option>
+              <option value="8">Investments</option>
+              <option value="9">Debt Payment</option>
+              <option value="10">Personal Spending</option>
+              <option value="11">Recreational & Entertainment</option>
+              <option value="12">Miscellaneous</option>
+            </select>
+          </form>
+        </div>
+      </div>
+      <button class="expenseButton">Add An Expense</button>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
