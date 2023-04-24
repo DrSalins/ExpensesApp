@@ -6,7 +6,7 @@ The Expenses App is a website that will allow you to add your expenses through a
 ## Cloning
 
 ```bash
-git clone git@github.com:DrSalins/ExpenseApp.git
+git clone git@github.com:DrSalins/ExpensesApp.git
 ```
 
 ## Usage
