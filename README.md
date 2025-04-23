@@ -17,7 +17,7 @@ index.html
 ```
 
 ## Live Project Link
-[The Expenses App](https://drsalins.github.io/TheExpenseApp/)
+
 
 ## Skills
 <p align="left">
